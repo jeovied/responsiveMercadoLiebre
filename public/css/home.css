@@ -1,0 +1,548 @@
+header form, input{
+    display: inline;
+    width: 300px;
+    height: 30px;
+}
+
+.searchBar button {
+    width: 30px;
+    padding: 5px 0px;
+}
+
+.home .burgerMenu {
+    font-size: 22px;
+    text-align: center;
+    background-color: var(--color-celeste);
+    width: 47px;
+    padding: 8px 5px 8px 5px;
+    margin: 4%;
+    color: var(--color-gris-claro);
+    border-radius: 7px;
+}
+
+.home .logo {
+    width: 75%;
+    padding: 2px 2px;
+    margin: 12px 10px 15px 15px;
+}
+
+p {
+    padding: 25px 20px 10px;
+    margin: 10px;
+}
+
+.home .menu, ul {
+    padding: 10px 10px;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.banner {
+    display: none;
+}
+
+h1 {
+    padding: 20px 15px;
+    font-size: 24px;
+    color: var(--color-gris-oscuro);
+    font-weight: bold;
+}
+
+article {
+    padding: 10px;
+}
+
+.product1 img {
+    width: 100%;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    border-radius: 5px;
+}
+
+.product2 img {
+    width: 100%;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    border-radius: 5px;
+}
+
+.product3 img {
+    width: 100%;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    border-radius: 5px;
+}
+
+.product4 img {
+    width: 100%;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    border-radius: 5px;
+}
+
+.camioncito {
+    display: inline-flex;
+    color: var(--color-verde);
+    border: 1px solid var(--color-verde);
+    box-shadow: none;
+    width: 14%;
+    padding: 16px 10px;
+    margin: 10px 10px 0px;
+    border-radius: 25px;
+}
+
+.camioncito i {
+    position: relative;
+    bottom: 8px;
+    right: 4px;
+}
+
+article div {
+    font-size: 16px;
+    background-color: #fff;
+}
+
+footer i {
+    color: var(--color-celeste);
+    font-size: 30px;
+    padding: 15px;
+}
+
+footer p {
+    padding: 10px;
+}
+
+
+
+
+/* Mobiles S*/
+
+@media (min-width: 320px) {
+
+    /* Header */
+
+    header {
+        text-align: left;
+    }
+
+    .home .logo {
+        width: 75%;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    header form, input{
+        display: inline;
+        width: 90%;
+        height: auto;
+    }
+
+    .searchBar button {
+        width: 25px;
+        height: auto;
+        padding: 0px;
+    }
+
+    p {
+        padding: 25px 0px 10px;
+        margin: 0px;
+    }
+
+    .home .menu, ul {
+        display: none;
+        padding: 5px 0px;
+        text-decoration: none;
+        list-style: none;
+        margin: 0px;
+    }
+
+    .banner {
+        display: inline-block;
+        position: relative;
+        top: 0px;
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        padding: 20px 0px;
+        font-size: 24px;
+        color: var(--color-gris-oscuro);
+        font-weight: bold;
+    }
+
+    .home .burgerMenu {
+        display: inline-block;
+        position: relative;
+        left: 37%;
+        font-size: 22px;
+        text-align: center;
+        background-color: var(--color-celeste);
+        width: 47px;
+        padding: 8px 5px 8px 5px;
+        margin: 4%;
+        color: var(--color-gris-claro);
+        border-radius: 7px;
+    }
+
+    .product1 img, .product2 img, .product3 img, .product4 img {
+        box-shadow: none;
+    }
+
+    article div {
+        display: none;
+        font-size: 16px;
+        background-color: #fff;
+    }
+
+    .camioncito {
+        display: inline-block;
+        color: var(--color-verde);
+        border: 1px solid var(--color-verde);
+        box-shadow: none;
+        width: auto;
+        padding: auto;
+        margin: auto;
+        border-radius: 25px;
+    }
+    
+    .camioncito i {
+        position: relative;
+        bottom: 12.5%;
+        left: 17%;
+    }
+
+}
+
+/* Tablets */
+
+@media (min-width: 361px) {
+
+    /* Header */
+
+    header {
+        text-align: center;
+    }
+
+    .home .logo {
+        width: 75%;
+        height: auto;
+        padding: 0px;
+        margin: 20px;
+    }
+
+    header form, input{
+        display: inline;
+        width: 75%;
+        height: auto;
+        margin: 20px 0px;
+    }
+
+    .searchBar button {
+        display: inline-block;
+        width: 25px;
+        height: auto;
+    }
+
+    p {
+        padding: 0px;
+        margin: 20px;
+    }
+
+    .home .menu, ul {
+        display: inline-block;
+        text-decoration: none;
+        list-style: none;
+        margin: 20px;
+    }
+
+    .banner {
+        display: inline-flex;
+        position: relative;
+        bottom: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        display: inline-block;
+        position: relative;
+        left: 4%;
+        text-align: center;
+    }
+
+    .home .burgerMenu {
+        display: none;
+        font-size: 22px;
+        text-align: center;
+        background-color: var(--color-celeste);
+        width: 47px;
+        padding: 8px 5px 8px 5px;
+        margin: 4%;
+        color: var(--color-gris-claro);
+        border-radius: 7px;
+    }
+
+    /* Products */
+
+    article div {
+        display: block;
+        font-size: 100%;
+        background-color: #fff;
+        position: relative;
+        left: 3%;
+    }
+
+    .camioncito {
+        display: block;
+        position: static;
+        color: var(--color-verde);
+        border: 1px solid var(--color-verde);
+        box-shadow: none;
+        width: 18%;
+        padding: 2% auto;
+        margin: 1%;
+        border-radius: 25px;
+    }
+    
+    .camioncito i {
+        position: relative;
+        left: 2%;
+        bottom: 10px;
+    }
+
+    .product1 img, .product2 img, .product3 img, .product4 img {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        position: relative;
+        left: 3%;
+    }
+
+    /* Footer */
+
+    footer i {
+        width: 100%;
+        height: auto;
+        color: var(--color-celeste);
+        font-size: 30px;
+        padding: 15px;
+    }
+    
+    footer p {
+        display: inline-block;
+        position: static;
+        padding: 10px;
+    }
+
+}
+
+/* Desktop */
+
+@media (min-width: 769px) {
+
+    /* Header */
+
+    header {
+        text-align: center;
+    }
+
+    .home .logo {
+        width: 50%;
+        height: auto;
+        padding: 0px;
+        margin: 20px;
+    }
+
+    header form, input{
+        text-align: center;
+        display: inline;
+        width: 50%;
+        height: 25px;
+        margin: 20px 0px;
+    }
+
+    .searchBar button {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+    }
+
+    p {
+        padding: 0px;
+        margin: 20px;
+    }
+
+    .home .menu, ul {
+        display: inline-block;
+        text-decoration: none;
+        list-style: none;
+        margin: 20px;
+    }
+
+    .banner {
+        display: inline-flex;
+        width: 100%;
+    }
+
+    .home .burgerMenu {
+        display: none;
+        font-size: 25px;
+        text-align: center;
+        background-color: var(--color-celeste);
+        width: 4%;
+        padding: 8px 5px 8px 5px;
+        margin: 4%;
+        color: var(--color-gris-claro);
+        border-radius: 7px;
+    }
+
+    article div {
+        display: block;
+        font-size: 100%;
+        background-color: #fff;
+        position: relative;
+        left: 5%;
+    }
+
+    .camioncito {
+        display: block;
+        position: static;
+        color: var(--color-verde);
+        border: 1px solid var(--color-verde);
+        box-shadow: none;
+        width: 8%;
+        padding: 5% auto;
+        margin: 1%;
+        border-radius: 25px;
+    }
+    
+    .camioncito i {
+        position: relative;
+        left: 2%;
+        bottom: 10px;
+    }
+
+    .product1 img, .product2 img, .product3 img, .product4 img {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        position: relative;
+        left: 5%;
+    }
+
+    /* Footer */
+
+    footer i {
+        width: 100%;
+        height: auto;
+        color: var(--color-celeste);
+        font-size: 30px;
+    }
+    
+    footer p {
+        text-align: center;
+        display: block;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    /* Header */
+
+    header {
+        text-align: center;
+    }
+
+    .home .logo {
+        width: 50%;
+        height: auto;
+        padding: 0px;
+        margin: 20px;
+    }
+
+    header form, input{
+        text-align: center;
+        display: inline;
+        width: 50%;
+        height: 25px;
+        margin: 20px 0px;
+    }
+
+    .searchBar button {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+    }
+
+    p {
+        padding: 0px;
+        margin: 20px;
+    }
+
+    .home .menu, ul {
+        display: inline-block;
+        text-decoration: none;
+        list-style: none;
+        margin: 20px;
+    }
+
+    .banner {
+        display: inline-flex;
+        width: 100%;
+    }
+
+    .home .burgerMenu {
+        display: none;
+        font-size: 25px;
+        text-align: center;
+        background-color: var(--color-celeste);
+        width: 5%;
+        padding: 8px 5px 8px 5px;
+        margin: 4%;
+        color: var(--color-gris-claro);
+        border-radius: 7px;
+    }
+
+    article div {
+        display: block;
+        font-size: 100%;
+        background-color: #fff;
+        position: relative;
+        left: 5%;
+    }
+
+    .camioncito {
+        display: block;
+        position: static;
+        color: var(--color-verde);
+        border: 1px solid var(--color-verde);
+        box-shadow: none;
+        width: 6%;
+        padding: 5% auto;
+        margin: 1%;
+        border-radius: 25px;
+    }
+    
+    .camioncito i {
+        position: relative;
+        left: 2%;
+        bottom: 10px;
+    }
+
+    .product1 img, .product2 img, .product3 img, .product4 img {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        position: relative;
+        left: 5%;
+    }
+
+    /* Footer */
+
+    footer i {
+        width: 100%;
+        height: auto;
+        color: var(--color-celeste);
+        font-size: 30px;
+    }
+    
+    footer p {
+        text-align: center;
+        display: block;
+    }
+
+}
